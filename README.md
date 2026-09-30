@@ -3,7 +3,7 @@
 An Anki deck of the 100 most common German verbs, for A1–B1 learners.
 Each verb has its conjugations, an everyday example sentence, a short grammar tip, and audio from a natural-sounding voice.
 
-It is a full rework of the "Top 100 German Verbs" shared deck from AnkiWeb.
+It is improved from the AnkiWeb shared deck **[Top 100 German Verbs](https://ankiweb.net/shared/info/609348355)**.
 That deck had only the verb, a one-line meaning, and robotic TTS. The verb list and its order come from it; everything else is new.
 
 ## What each note has
