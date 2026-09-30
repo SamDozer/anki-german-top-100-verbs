@@ -1,0 +1,25 @@
+.card {
+  --bg: #fbfaf7; --fg: #1f2328; --muted: #6b7280; --accent: #b45309; --line: #e5e1d8; --hint-bg: #fff7e6; --hint-fg: #7c4a03;
+  font-family: "Segoe UI", system-ui, -apple-system, Roboto, Arial, sans-serif;
+  font-size: 19px; line-height: 1.45; text-align: center; color: var(--fg); background: var(--bg);
+  max-width: 560px; margin: 0 auto; padding: 18px 16px;
+}
+.nightMode.card, .night_mode .card {
+  --bg: #1e1f22; --fg: #e8e6e3; --muted: #9aa0a6; --accent: #f59e0b; --line: #3a3b3f; --hint-bg: #2b2418; --hint-fg: #f5c77e;
+}
+.dir { font-size: 12px; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin-bottom: 14px; }
+.word { font-size: 38px; font-weight: 650; color: var(--accent); margin: 6px 0; }
+.meaning { font-size: 22px; margin: 6px 0 14px; }
+.meaning.big { font-size: 28px; font-weight: 600; }
+hr#answer { border: 0; border-top: 1px solid var(--line); margin: 16px 0; }
+table.conj { margin: 12px auto; border-collapse: collapse; font-size: 17px; text-align: left; }
+table.conj th { color: var(--muted); font-weight: 500; padding: 4px 14px 4px 0; white-space: nowrap; vertical-align: top; }
+table.conj td { padding: 4px 0; }
+.ex { margin: 16px auto 6px; padding: 10px 14px; border-left: 3px solid var(--accent); text-align: left; max-width: 480px; }
+.ex-de { font-size: 19px; }
+.ex-en { font-size: 16px; color: var(--muted); margin-top: 2px; }
+.hint { margin: 14px auto 0; padding: 9px 12px; border-radius: 8px; background: var(--hint-bg); color: var(--hint-fg);
+        font-size: 15px; text-align: left; max-width: 480px; }
+.hint::before { content: "Tip: "; font-weight: 600; }
+input#typeans { font-size: 22px; padding: 6px 10px; margin-top: 12px; border-radius: 6px; border: 1px solid var(--line);
+                background: var(--bg); color: var(--fg); }
