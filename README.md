@@ -34,6 +34,23 @@ The tips cover what A1–A2 learners get wrong most often:
 All conjugations, the example, and the tip are shown on the answer side.
 The layout is clean and also works in Anki's night mode.
 
+## One answer per prompt
+
+The English → German and type-the-answer cards show only the English meaning, so every prompt is written to lead to exactly one verb:
+
+| Prompt | Answer |
+|---|---|
+| to think (about sth: denken an) | denken |
+| to believe; to think (= I believe) | glauben |
+| to mean (what sb means); to think (opinion) | meinen |
+| to find; to find sth good / bad (opinion) | finden |
+| to go (on foot) / to run; colloquial: to walk | gehen / laufen |
+| to make; to do (everyday) / to do (≠ machen; set phrases) | machen / tun |
+| to speak (a language / with sb) / to talk (casual) | sprechen / reden |
+| to put (upright) / to lay, to put (flat) / to set; sich setzen = to sit down | stellen / legen / setzen |
+
+Nine verbs also have a short pronunciation tip ("sound: …"): *st / sp* at the start of a word, *z = ts*, *ei* vs *ie* (*schreiben → schrieb*), *w = v*, *v = f*, *ö*, *ü*.
+
 ## Tags for focused drills
 
 Use them with **Tools → Create Filtered Deck** for short extra sessions (keep your daily reviews in the main deck):
@@ -45,6 +62,18 @@ Use them with **Tools → Create Filtered Deck** for short extra sessions (keep 
 | `tag:verb::stem-change` | 21 verbs with a present-tense vowel change (du gibst, er fährt, du liest, …) |
 | `tag:verb::separable` | anfangen, ansehen, aussehen, anbieten, vorstellen, darstellen |
 | `tag:verb::modal` | können, müssen, dürfen, sollen, wollen, mögen |
+
+Level and study tags:
+
+| Tag | Verbs |
+|---|---|
+| `A1::Goethe` | 62 verbs that are on the Goethe-Zertifikat A1 word list |
+| `A1::core` | 78: the A1 verbs plus 16 very common everyday verbs (`level::A2-everyday`: *denken, zeigen, versuchen, verlieren …*) |
+| `level::A2-B1` | 22 less urgent verbs (*entsprechen, darstellen, betreffen …*): learn them after the core |
+| `A1::confusion` | 44 verbs that belong to an easily confused pair or group |
+| `A1::grammar` / `A1::false_friend` / `A1::pronunciation` | 42 / 5 / 9 |
+
+To start with the most useful verbs, use **Tools → Create Filtered Deck** with `deck:"Top 100 German Verbs" tag:A1::core`.
 
 ## Files
 
